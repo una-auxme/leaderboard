@@ -167,7 +167,7 @@ class AgentWrapper(object):
 
         elif type_ == 'sensor.lidar.ray_cast':
             attributes['range'] = str(85)
-            attributes['rotation_frequency'] = str(10)
+            attributes['rotation_frequency'] = str(20)
             attributes['channels'] = str(64)
             attributes['upper_fov'] = str(10)
             attributes['lower_fov'] = str(-30)
